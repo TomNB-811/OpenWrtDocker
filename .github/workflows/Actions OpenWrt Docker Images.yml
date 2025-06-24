@@ -1,16 +1,14 @@
 #=================================================
-# https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
+# Author: tomnb
 #=================================================
 
 name: Actions OpenWrt Docker Images
 
 env:
-  PREFIX_URL: https://downloads.immortalwrt.org/releases/24.10-SNAPSHOT/targets/
-  DEVICE_VERSION: 24.10-SNAPSHOT
+  PREFIX_URL: https://downloads.immortalwrt.org/releases/24.10.1/targets
+  DEVICE_VERSION: 24.10.1
 
 on:
   workflow_dispatch:
